@@ -1,0 +1,219 @@
+{
+  "waypoints": [
+    {
+      "anchorPoint": {
+        "x": 1.77,
+        "y": 4.99
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 2.8004750177707907,
+        "y": 4.99
+      },
+      "holonomicAngle": 0,
+      "isReversal": false,
+      "velOverride": null,
+      "isLocked": false,
+      "isStopPoint": false,
+      "stopEvent": {
+        "names": [
+          "SCORECONELEVEL2"
+        ],
+        "executionBehavior": "parallel",
+        "waitBehavior": "minimum",
+        "waitTime": 1.3
+      }
+    },
+    {
+      "anchorPoint": {
+        "x": 6.08,
+        "y": 4.55
+      },
+      "prevControl": {
+        "x": 4.417947305252456,
+        "y": 4.695410768973123
+      },
+      "nextControl": {
+        "x": 4.417947305252456,
+        "y": 4.695410768973123
+      },
+      "holonomicAngle": 0,
+      "isReversal": true,
+      "velOverride": null,
+      "isLocked": false,
+      "isStopPoint": true,
+      "stopEvent": {
+        "names": [],
+        "executionBehavior": "sequential",
+        "waitBehavior": "minimum",
+        "waitTime": 0.0
+      }
+    },
+    {
+      "anchorPoint": {
+        "x": 2.5,
+        "y": 4.613343927542556
+      },
+      "prevControl": {
+        "x": 3.447790955410972,
+        "y": 4.613343927542556
+      },
+      "nextControl": {
+        "x": 3.447790955410972,
+        "y": 4.613343927542556
+      },
+      "holonomicAngle": 0,
+      "isReversal": true,
+      "velOverride": null,
+      "isLocked": false,
+      "isStopPoint": true,
+      "stopEvent": {
+        "names": [
+          "SCORECUBELEVEL2"
+        ],
+        "executionBehavior": "parallel",
+        "waitBehavior": "minimum",
+        "waitTime": 0.5
+      }
+    },
+    {
+      "anchorPoint": {
+        "x": 4.7,
+        "y": 4.6
+      },
+      "prevControl": {
+        "x": 3.7656538168395035,
+        "y": 4.676653065368589
+      },
+      "nextControl": {
+        "x": 5.51197947888727,
+        "y": 4.533385807964062
+      },
+      "holonomicAngle": 0,
+      "isReversal": false,
+      "velOverride": null,
+      "isLocked": false,
+      "isStopPoint": false,
+      "stopEvent": {
+        "names": [],
+        "executionBehavior": "parallel",
+        "waitBehavior": "none",
+        "waitTime": 0
+      }
+    },
+    {
+      "anchorPoint": {
+        "x": 6.67,
+        "y": 4.0
+      },
+      "prevControl": {
+        "x": 6.076204797601761,
+        "y": 4.279418812603811
+      },
+      "nextControl": {
+        "x": 6.076204797601761,
+        "y": 4.279418812603811
+      },
+      "holonomicAngle": 0,
+      "isReversal": true,
+      "velOverride": null,
+      "isLocked": false,
+      "isStopPoint": true,
+      "stopEvent": {
+        "names": [],
+        "executionBehavior": "parallel",
+        "waitBehavior": "minimum",
+        "waitTime": 0.0
+      }
+    },
+    {
+      "anchorPoint": {
+        "x": 4.7,
+        "y": 4.6
+      },
+      "prevControl": {
+        "x": 5.489142328569744,
+        "y": 4.544817792793439
+      },
+      "nextControl": {
+        "x": 4.032300076561302,
+        "y": 4.646690126980994
+      },
+      "holonomicAngle": 0,
+      "isReversal": false,
+      "velOverride": null,
+      "isLocked": false,
+      "isStopPoint": false,
+      "stopEvent": {
+        "names": [],
+        "executionBehavior": "parallel",
+        "waitBehavior": "none",
+        "waitTime": 0
+      }
+    },
+    {
+      "anchorPoint": {
+        "x": 2.7,
+        "y": 4.65
+      },
+      "prevControl": {
+        "x": 3.64779101064599,
+        "y": 4.638585417289915
+      },
+      "nextControl": null,
+      "holonomicAngle": 0,
+      "isReversal": false,
+      "velOverride": null,
+      "isLocked": false,
+      "isStopPoint": false,
+      "stopEvent": {
+        "names": [
+          "SCORECUBELEVEL3"
+        ],
+        "executionBehavior": "parallel",
+        "waitBehavior": "minimum",
+        "waitTime": 1.7
+      }
+    }
+  ],
+  "markers": [
+    {
+      "position": 0.1745454545454508,
+      "names": [
+        "ARMGROUNDPICKUP",
+        "INTAKEIN"
+      ]
+    },
+    {
+      "position": 1.1,
+      "names": [
+        "SCORECUBELEVEL2"
+      ]
+    },
+    {
+      "position": 2.2,
+      "names": [
+        "ARMGROUNDPICKUP",
+        "INTAKEIN"
+      ]
+    },
+    {
+      "position": 4.3200000000000385,
+      "names": [
+        "INTAKESLOWIN"
+      ]
+    },
+    {
+      "position": 1.04727272727268,
+      "names": [
+        "INTAKESLOWIN"
+      ]
+    },
+    {
+      "position": 4.581818181818182,
+      "names": [
+        "PIVOTCUBELEVEL3"
+      ]
+    }
+  ]
+}

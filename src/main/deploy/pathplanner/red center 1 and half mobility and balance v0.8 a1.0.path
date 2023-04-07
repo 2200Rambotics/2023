@@ -1,0 +1,118 @@
+{
+  "waypoints": [
+    {
+      "anchorPoint": {
+        "x": 14.6421523612278,
+        "y": 2.2
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 13.648684733266903,
+        "y": 2.2
+      },
+      "holonomicAngle": 0,
+      "isReversal": false,
+      "velOverride": null,
+      "isLocked": false,
+      "isStopPoint": false,
+      "stopEvent": {
+        "names": [
+          "SCORECONELEVEL2"
+        ],
+        "executionBehavior": "parallel",
+        "waitBehavior": "minimum",
+        "waitTime": 1.3
+      }
+    },
+    {
+      "anchorPoint": {
+        "x": 11.764521990582443,
+        "y": 2.2
+      },
+      "prevControl": {
+        "x": 12.609617585775382,
+        "y": 2.2
+      },
+      "nextControl": {
+        "x": 10.585634591656138,
+        "y": 2.2
+      },
+      "holonomicAngle": 0,
+      "isReversal": false,
+      "velOverride": null,
+      "isLocked": false,
+      "isStopPoint": false,
+      "stopEvent": {
+        "names": [],
+        "executionBehavior": "parallel",
+        "waitBehavior": "none",
+        "waitTime": 0
+      }
+    },
+    {
+      "anchorPoint": {
+        "x": 9.800425070935612,
+        "y": 1.9070010789594227
+      },
+      "prevControl": {
+        "x": 10.325706805259765,
+        "y": 1.9070010789594227
+      },
+      "nextControl": {
+        "x": 10.325706805259765,
+        "y": 1.9070010789594227
+      },
+      "holonomicAngle": 0,
+      "isReversal": true,
+      "velOverride": null,
+      "isLocked": false,
+      "isStopPoint": true,
+      "stopEvent": {
+        "names": [],
+        "executionBehavior": "parallel",
+        "waitBehavior": "none",
+        "waitTime": 0
+      }
+    },
+    {
+      "anchorPoint": {
+        "x": 12.6,
+        "y": 2.2
+      },
+      "prevControl": {
+        "x": 11.892011575476142,
+        "y": 2.2
+      },
+      "nextControl": null,
+      "holonomicAngle": 0,
+      "isReversal": false,
+      "velOverride": null,
+      "isLocked": false,
+      "isStopPoint": false,
+      "stopEvent": {
+        "names": [
+          "BALANCE"
+        ],
+        "executionBehavior": "parallel",
+        "waitBehavior": "minimum",
+        "waitTime": 10.0
+      }
+    }
+  ],
+  "markers": [
+    {
+      "position": 0.872727272727282,
+      "names": [
+        "INTAKEIN",
+        "ARMGROUNDPICKUP"
+      ]
+    },
+    {
+      "position": 2.2909090909091008,
+      "names": [
+        "INTAKESLOWIN",
+        "ARMSTOW"
+      ]
+    }
+  ]
+}

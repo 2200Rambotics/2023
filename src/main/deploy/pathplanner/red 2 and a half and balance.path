@@ -1,0 +1,192 @@
+{
+  "waypoints": [
+    {
+      "anchorPoint": {
+        "x": 14.733505706327653,
+        "y": 4.990176476079449
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 13.979840609253875,
+        "y": 4.990176476079449
+      },
+      "holonomicAngle": 0,
+      "isReversal": false,
+      "velOverride": null,
+      "isLocked": false,
+      "isStopPoint": false,
+      "stopEvent": {
+        "names": [
+          "SCORECONELEVEL2"
+        ],
+        "executionBehavior": "parallel",
+        "waitBehavior": "minimum",
+        "waitTime": 1.3
+      }
+    },
+    {
+      "anchorPoint": {
+        "x": 10.417060150359617,
+        "y": 4.55
+      },
+      "prevControl": {
+        "x": 12.079112845107161,
+        "y": 4.695410768973122
+      },
+      "nextControl": {
+        "x": 12.079112845107161,
+        "y": 4.695410768973122
+      },
+      "holonomicAngle": 0,
+      "isReversal": true,
+      "velOverride": null,
+      "isLocked": false,
+      "isStopPoint": true,
+      "stopEvent": {
+        "names": [],
+        "executionBehavior": "sequential",
+        "waitBehavior": "minimum",
+        "waitTime": 0.0
+      }
+    },
+    {
+      "anchorPoint": {
+        "x": 14.0,
+        "y": 4.613343927542556
+      },
+      "prevControl": {
+        "x": 13.052209044589029,
+        "y": 4.613343927542556
+      },
+      "nextControl": {
+        "x": 13.052209044589029,
+        "y": 4.613343927542556
+      },
+      "holonomicAngle": 0,
+      "isReversal": true,
+      "velOverride": null,
+      "isLocked": false,
+      "isStopPoint": true,
+      "stopEvent": {
+        "names": [
+          "SCORECUBELEVEL2"
+        ],
+        "executionBehavior": "parallel",
+        "waitBehavior": "minimum",
+        "waitTime": 0.5
+      }
+    },
+    {
+      "anchorPoint": {
+        "x": 11.8,
+        "y": 4.6
+      },
+      "prevControl": {
+        "x": 12.734348442999481,
+        "y": 4.676625514559028
+      },
+      "nextControl": {
+        "x": 10.988018557233696,
+        "y": 4.533409750580185
+      },
+      "holonomicAngle": 0,
+      "isReversal": false,
+      "velOverride": null,
+      "isLocked": false,
+      "isStopPoint": false,
+      "stopEvent": {
+        "names": [],
+        "executionBehavior": "parallel",
+        "waitBehavior": "none",
+        "waitTime": 0
+      }
+    },
+    {
+      "anchorPoint": {
+        "x": 9.834682575348058,
+        "y": 3.9
+      },
+      "prevControl": {
+        "x": 10.428479318497098,
+        "y": 4.179415538318256
+      },
+      "nextControl": {
+        "x": 10.428479318497098,
+        "y": 4.179415538318256
+      },
+      "holonomicAngle": 0,
+      "isReversal": true,
+      "velOverride": null,
+      "isLocked": false,
+      "isStopPoint": true,
+      "stopEvent": {
+        "names": [],
+        "executionBehavior": "parallel",
+        "waitBehavior": "minimum",
+        "waitTime": 0.0
+      }
+    },
+    {
+      "anchorPoint": {
+        "x": 12.5,
+        "y": 3.345816264282101
+      },
+      "prevControl": {
+        "x": 10.307519717603537,
+        "y": 3.3115587598696563
+      },
+      "nextControl": null,
+      "holonomicAngle": 0,
+      "isReversal": false,
+      "velOverride": null,
+      "isLocked": false,
+      "isStopPoint": false,
+      "stopEvent": {
+        "names": [
+          "BALANCE"
+        ],
+        "executionBehavior": "parallel",
+        "waitBehavior": "minimum",
+        "waitTime": 15.0
+      }
+    }
+  ],
+  "maxVelocity": null,
+  "maxAcceleration": 5.0,
+  "isReversed": false,
+  "markers": [
+    {
+      "position": 0.1745454545454508,
+      "names": [
+        "ARMGROUNDPICKUP",
+        "INTAKEIN"
+      ]
+    },
+    {
+      "position": 1.1,
+      "names": [
+        "SCORECUBELEVEL2"
+      ]
+    },
+    {
+      "position": 2.2,
+      "names": [
+        "ARMGROUNDPICKUP",
+        "INTAKEIN"
+      ]
+    },
+    {
+      "position": 4.3200000000000385,
+      "names": [
+        "INTAKESLOWIN",
+        "ARMSTOW"
+      ]
+    },
+    {
+      "position": 1.04727272727268,
+      "names": [
+        "INTAKESLOWIN"
+      ]
+    }
+  ]
+}
